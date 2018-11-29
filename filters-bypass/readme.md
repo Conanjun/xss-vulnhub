@@ -30,7 +30,7 @@ else
 }
 ?>
 ```
-![](pics/11.png)
+![](https://github.com/Conanjun/xss-vulnhub/blob/master/filters-bypass/filter1/1.png)
 
 #### filte2 替换关键字
 思路:过滤了script可以用on事件，过滤了空格可以用%0d%0a绕过
@@ -46,4 +46,4 @@ $str5=str_replace("	","&nbsp;",$str4);
 echo "<center>".$str5."</center>";
 ?>
 ```
-![](pics/10.png)
+![](https://github.com/Conanjun/xss-vulnhub/blob/master/filters-bypass/filter2/1.png)
