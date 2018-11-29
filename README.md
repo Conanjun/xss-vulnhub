@@ -1,6 +1,9 @@
 # xss-vulnhub
 
-+ angular-xss: https://github.com/Conanjun/xss-vulnhub/tree/master/angular-xss
+- angular-xss: https://github.com/Conanjun/xss-vulnhub/tree/master/angular-xss
+- xss filters与bypass: https://github.com/Conanjun/xss-vulnhub/tree/master/filters-bypass
+    - filter1 
+    - filter2 
 
 TODOLIST:
 - [X] angular xss各个版本xss复现
